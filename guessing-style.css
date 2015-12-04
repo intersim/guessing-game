@@ -8,18 +8,6 @@ h1 {
     font-size: 48px;
 }
 
-h5 {
-    color: #000000;
-    font-family: "Kavoon";
-    font-size: 48px;
-}
-
-h6 {
-    color: #000000;
-    font-family: "Kavoon";
-    font-size: 18px;
-}
-
 #container {
     position: absolute;
     width: 600px;
@@ -61,5 +49,5 @@ a:hover {
 
 a:active {
     text-decoration: none;
-    color: red;
+    color: green;
 }
