@@ -1,53 +1,48 @@
 body {
-    background-color: #ffffff;
+    background-color: white;
 }
 
 h1 {
-    color: #000000;
-    font-family: "Kavoon";
-    font-size: 48px;
+    color: black;
+    font-family: "Fredoka One";
+    font-size: 64px;
+}
+
+h2 {
+    color: red;
+    font-family: "Fredoka One";
+    font-size: 64px;
+}
+
+h3 {
+    color: green;
+    font-family: "Fredoka One";
+    font-size: 64px;
+}
+
+p {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
 
 #container {
     position: absolute;
-    width: 600px;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
 }
 
 .header {
-    width: 600px;
-    height: 90px;
     text-align: center;
     vertical-align: middle;
 }
 
 .guess {
     float: center;
-    width: 600px;
     display: inline-block;
     color: #000000;
-    font-family: "Futura", sans-serif;
-    font-size: 42px;
     text-align: center;
     vertical-align: middle;
-}
-
-a:link {
-    text-decoration: none;
-    color: #e4e4e4;
-}
-
-a:visited {
-    color: #e4e4e4;
-}
-
-a:hover {
-    text-decoration: none;
-    color: green;
-}
-
-a:active {
-    text-decoration: none;
-    color: green;
 }

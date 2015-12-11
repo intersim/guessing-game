@@ -9,17 +9,21 @@
 <link rel="stylesheet" type="text/css" media="screen" href="guessing-style.css" />
 </head>
 <body>
-<link href='https://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
 <div id="container">
  <div class="header">
         <h1>Guess the Number:</h1>
 </div>
 <div class="guess">
+<div class="repeat"></div>
+<div class="feedback"></div>
 <form>
-  <input type="text" name="guess"><br>
-  <input type="submit" value="Guess">
-  <input type="submit" value="Need a hint?">
+  <input type="text" id="playersGuess"><br>
+  <input type="button" id="submit" value="Guess!"></input>
+  <input type="button" id="hint" value="Hint?"></input>
 </form>
 </div>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="guessingGame.js"></script>
 </body>
 </html>
